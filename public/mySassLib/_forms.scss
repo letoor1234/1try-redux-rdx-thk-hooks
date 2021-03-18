@@ -1,0 +1,65 @@
+.form{
+    margin: .3em;
+    padding: .2em;
+    display: flex;
+}
+.form__label{
+    padding: .2em;
+}
+.form__input{
+    padding: .2em;
+}
+.--port--form--column{
+    @media all and (orientation: portrait){
+    flex-direction: column;
+        .form__input, .form__label, .form__submit{
+            display: block;
+            width: 100%;
+        }
+        .form__input{
+            margin-bottom: .3em;
+        }
+    }
+}
+.--port--form--row{
+    @media all and (orientation: portrait){
+    flex-direction: row;
+        .form__input, .form__label, .form__submit{
+            display: inline;
+            width: 20%;
+        }
+        .form__label{
+            display: none;
+        }
+        .form__input{
+            margin: .1em .3em;
+        }
+    }
+}
+.--land--form--column{
+    @media all and (orientation: landscape){
+    flex-direction: column;
+        .form__input, .form__label, .form__submit{
+            display: block;
+            width: 100%;
+        }
+        .form__input{
+            margin-bottom: .3em;
+        }
+    }
+}
+.--land--form--row{
+    @media all and (orientation: landscape){
+    flex-direction: row;
+        .form__input, .form__label, .form__submit{
+            display: inline;
+            width: 20%;
+        }
+        .form__label{
+            display: none;
+        }
+        .form__input{
+            margin: .1em .3em;
+        }
+    }
+}

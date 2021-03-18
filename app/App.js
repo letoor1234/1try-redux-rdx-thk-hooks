@@ -1,9 +1,17 @@
-import React from 'react'
+import React, {Component} from 'react'
+import {
+    BrowserRouter as Router,
+    Route,
+    Link
+} from 'react-router-dom'
 
+import Header from './comps/Header'
 export default class App extends Component{
     render(){
         return(
-            <h1>Holi</h1>
+            <Router>
+                <Header/>
+            </Router>
         )
     }
 }

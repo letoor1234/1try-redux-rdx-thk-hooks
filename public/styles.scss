@@ -1,0 +1,40 @@
+@import'mySassLib/_forms.scss'; 
+@import'mySassLib/_portrait.scss'; 
+@import'mySassLib/_landscape.scss'; 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-clip: border-box;
+}
+
+.--flex-between{
+    justify-content: space-between;
+}
+.--flex-around{
+    justify-content: space-around;
+}
+
+//--TEXTs
+.--text-center{
+    text-align: center;
+}
+.--text-left{
+    text-align: left;
+}
+.--text-right{
+    text-align: right;
+}
+
+//--FLexS
+.--flex-between{
+    justify-content: space-between;
+}
+.--flex-around{
+    justify-content: space-around;    
+}
+//displayS
+.--block{
+    display: block;
+}

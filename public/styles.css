@@ -1,0 +1,234 @@
+.form {
+  margin: .3em;
+  padding: .2em;
+  display: flex;
+}
+
+.form__label {
+  padding: .2em;
+}
+
+.form__input {
+  padding: .2em;
+}
+
+@media all and (orientation: portrait) {
+  .--port--form--column {
+    flex-direction: column;
+  }
+  .--port--form--column .form__input, .--port--form--column .form__label, .--port--form--column .form__submit {
+    display: block;
+    width: 100%;
+  }
+  .--port--form--column .form__input {
+    margin-bottom: .3em;
+  }
+}
+
+@media all and (orientation: portrait) {
+  .--port--form--row {
+    flex-direction: row;
+  }
+  .--port--form--row .form__input, .--port--form--row .form__label, .--port--form--row .form__submit {
+    display: inline;
+    width: 20%;
+  }
+  .--port--form--row .form__label {
+    display: none;
+  }
+  .--port--form--row .form__input {
+    margin: .1em .3em;
+  }
+}
+
+@media all and (orientation: landscape) {
+  .--land--form--column {
+    flex-direction: column;
+  }
+  .--land--form--column .form__input, .--land--form--column .form__label, .--land--form--column .form__submit {
+    display: block;
+    width: 100%;
+  }
+  .--land--form--column .form__input {
+    margin-bottom: .3em;
+  }
+}
+
+@media all and (orientation: landscape) {
+  .--land--form--row {
+    flex-direction: row;
+  }
+  .--land--form--row .form__input, .--land--form--row .form__label, .--land--form--row .form__submit {
+    display: inline;
+    width: 20%;
+  }
+  .--land--form--row .form__label {
+    display: none;
+  }
+  .--land--form--row .form__input {
+    margin: .1em .3em;
+  }
+}
+
+@media all and (orientation: portrait) {
+  .--port-width-100 {
+    width: 100%;
+  }
+}
+
+@media all and (orientation: portrait) {
+  .--port-width-75 {
+    width: 75%;
+  }
+}
+
+@media all and (orientation: portrait) {
+  .--port-width-50 {
+    width: 50%;
+  }
+}
+
+@media all and (orientation: portrait) {
+  .--port-width-40 {
+    width: 40%;
+  }
+}
+
+@media all and (orientation: portrait) {
+  .--port-width-30 {
+    width: 30%;
+  }
+}
+
+@media all and (orientation: portrait) {
+  .--port-width-20 {
+    width: 20%;
+  }
+}
+
+@media all and (orientation: portrait) {
+  .--port-block {
+    display: block;
+  }
+}
+
+@media all and (orientation: portrait) {
+  .--port-inline {
+    display: inline;
+  }
+}
+
+@media all and (orientation: portrait) {
+  .--port-row {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media all and (orientation: portrait) {
+  .--port-column {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media all and (orientation: landscape) {
+  .--land-width-100 {
+    width: 100%;
+  }
+}
+
+@media all and (orientation: landscape) {
+  .--land-width-75 {
+    width: 75%;
+  }
+}
+
+@media all and (orientation: landscape) {
+  .--land-width-50 {
+    width: 50%;
+  }
+}
+
+@media all and (orientation: landscape) {
+  .--land-width-40 {
+    width: 40%;
+  }
+}
+
+@media all and (orientation: landscape) {
+  .--land-width-30 {
+    width: 30%;
+  }
+}
+
+@media all and (orientation: landscape) {
+  .--land-width-20 {
+    width: 20%;
+  }
+}
+
+@media all and (orientation: landscape) {
+  .--land-block {
+    display: block;
+  }
+}
+
+@media all and (orientation: landscape) {
+  .--land-inline {
+    display: inline;
+  }
+}
+
+@media all and (orientation: landscape) {
+  .--land-row {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media all and (orientation: landscape) {
+  .--land-column {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-clip: border-box;
+}
+
+.--flex-between {
+  justify-content: space-between;
+}
+
+.--flex-around {
+  justify-content: space-around;
+}
+
+.--text-center {
+  text-align: center;
+}
+
+.--text-left {
+  text-align: left;
+}
+
+.--text-right {
+  text-align: right;
+}
+
+.--flex-between {
+  justify-content: space-between;
+}
+
+.--flex-around {
+  justify-content: space-around;
+}
+
+.--block {
+  display: block;
+}

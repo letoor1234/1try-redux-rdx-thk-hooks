@@ -1,0 +1,56 @@
+//PORTRAIT
+//width
+.--port-width-100 {
+    @media all and (orientation: portrait){
+        width: 100%;
+    }
+}
+.--port-width-75 {
+    @media all and (orientation: portrait){
+        width: 75%;
+    }
+}
+.--port-width-50 {
+    @media all and (orientation: portrait){
+        width: 50%;
+    }
+}
+.--port-width-40 {
+    @media all and (orientation: portrait){
+        width: 40%;
+    }
+}
+.--port-width-30 {
+    @media all and (orientation: portrait){
+        width: 30%;
+    }
+}
+.--port-width-20 {
+    @media all and (orientation: portrait){
+        width: 20%;
+    }
+}
+//display
+.--port-block{
+    @media all and (orientation: portrait){
+        display: block;
+    }
+}
+.--port-inline{
+    @media all and (orientation: portrait){
+        display: inline;
+    }
+}
+//flex
+.--port-row{
+    @media all and (orientation: portrait){
+        display: flex;
+        flex-direction: row;
+    }
+}
+.--port-column{
+    @media all and (orientation: portrait){
+        display: flex;
+        flex-direction: column;
+    }
+}

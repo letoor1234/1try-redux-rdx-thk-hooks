@@ -1,0 +1,58 @@
+//LANDSCAPE
+//width
+.--land-width-100 {
+    @media all and (orientation: landscape){
+        width: 100%;
+    }
+}
+.--land-width-75 {
+    @media all and (orientation: landscape){
+        width: 75%;
+    }
+}
+.--land-width-50 {
+    @media all and (orientation: landscape){
+        width: 50%;
+    }
+}
+.--land-width-40 {
+    @media all and (orientation: landscape){
+        width: 40%;
+    }
+}
+.--land-width-30 {
+    @media all and (orientation: landscape){
+        width: 30%;
+    }
+}
+.--land-width-20 {
+    @media all and (orientation: landscape){
+        width: 20%;
+    }
+}
+
+
+//display
+.--land-block{
+    @media all and (orientation: landscape){
+        display: block;
+    }
+}
+.--land-inline{
+    @media all and (orientation: landscape){
+        display: inline;
+    }
+}
+//flex
+.--land-row{
+    @media all and (orientation: landscape){
+        display: flex;
+        flex-direction: row;
+    }
+}
+.--land-column{
+    @media all and (orientation: landscape){
+        display: flex;
+        flex-direction: column;
+    }
+}
